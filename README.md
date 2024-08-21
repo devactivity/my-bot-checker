@@ -83,7 +83,7 @@ The bot patterns are stored in a JSON file, with each pattern being a regular ex
   "(?:^|[^g])news(?!sapphire)",
   "(?<! (?:channel/|google/))google(?!(app|/google| pixel))",
   "(?<! cu)bots?(?:\\b|_)"
-}
+]
 ```
 
 Each string in the array is a pattern that will be compiled into a single regular expression to match against user agent strings.
