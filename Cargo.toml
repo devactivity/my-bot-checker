@@ -1,0 +1,24 @@
+[package]
+name = "my_bot_checker"
+version = "0.1.0"
+edition = "2021"
+description = "A bot detection library using regex patterns."
+license = "MIT OR Apache-2.0"
+authors = ["Dev Activity <dev@activity.com>"]
+repository = "https://github.com/devactivity/my_bot_checker"
+documentation = "https://docs.rs/my_bot_checker"
+readme = "README.md"
+keywords = ["bot", "detection", "regex", "pcre2"]
+categories = ["text-processing", "web-programming", "parsing"]
+homepage = "https://github.com/devactivity/my_bot_checker"
+
+[dependencies]
+once_cell = "1.19.0"
+pcre2 = "0.2.9"
+serde = { version = "1.0.208", features = ["derive"] }
+serde_json = "1.0.124"
+
+[dev-dependencies]
+tempfile = "3.12.0"
+
+
