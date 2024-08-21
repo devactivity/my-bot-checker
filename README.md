@@ -1,6 +1,6 @@
 # My Bot Checker
 
-[![Build Status](https://travis-ci.com/devactivity/my-bot-checker.svg?branch=main)](https://travis-ci.com/devactivity/my-bot-checker)
+[![Build Status](https://travis-ci.org/devactivity/my-bot-checker.svg?branch=main)](https://travis-ci.org/devactivity/my-bot-checker)
 
 **My Bot Checker** is a Rust library for detecting bot user agents using regular expressions. It reads patterns from a JSON file, compiles them into a regex, and checks user agents against these patterns.
 
